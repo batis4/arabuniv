@@ -1,7 +1,8 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: 'Poppins', "san-serf", "Font Awesome 6 Free";
+    font-family: 'Cairo', sans-serif;
+    font-weight: bold;
 }
 :root {
     --main-color: #006d7e;
@@ -168,6 +169,7 @@ nav img {
     margin: auto;
     text-align: center;
     padding-top: 100px;
+    
 }
 
  h1{
@@ -188,18 +190,20 @@ p{
     justify-content: space-between;
 }
 .about-col{
+    padding-top: 12px;
     flex-basis: 31%;
     background-color: #f4f6fa;
     border-radius: 20px;
     margin-bottom: 5%;
     box-sizing: border-box;
     transition:0.5s ;
+     box-shadow: 0 0 5px 0  rgba(0, 0, 0, 0.2);
 
 }
 
 h3{
     text-align: center;
-    font-weight: 300;
+    font-weight: bold;
     margin: 10px 0;
 }
 .about-col:hover{
@@ -220,6 +224,7 @@ h3{
     padding-top: 100px ;
     transition:0.5s ;
 
+
 }
 
 
@@ -232,6 +237,8 @@ h3{
     box-sizing: border-box;
     text-align: center;
     overflow: hidden;
+    padding: 12px;
+     box-shadow: 0 0 5px 0  rgba(0, 0, 0, 0.2);
  }
  .section3-col img{
     width: 100%;
@@ -251,7 +258,9 @@ h3{
     display: flex;
     justify-content: space-between;
 }
-
+.section3-col:hover{
+    box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.2);
+}
 @media(max-width:900px){
     .row{
         flex-direction: column;
@@ -270,8 +279,12 @@ h3{
     border-radius: 20px;
     margin-bottom: 5%;
     box-sizing: border-box;
+     box-shadow: 0 0 5px 0  rgba(0, 0, 0, 0.2);
    
 
+}
+.section4:hover{
+    box-shadow: 0 0 20px 0  rgba(0, 0, 0, 0.2);
 }
 .section4-col{
     width: 80%;
