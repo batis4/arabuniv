@@ -42,13 +42,13 @@ This project serves as a design and layout prototype. It can be extended into a 
 
 ## 📷 Preview
 
-![Screenshot](<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/26f65b83-c229-49e3-b5d6-8999630b27a5" />
-)  
+<img width="1366" height="768" alt="image" src="https://github.com/user-attachments/assets/80216c21-5af7-40f9-b9f8-615bec08296a" />
 
 
 
----
+
+
 
 Feel free to contribute or fork the project to build your own version!
 
-```
+
